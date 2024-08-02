@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Eco Aware</title>
+  <link rel="icon" type="image/x-icon"
+    href="https://cloud-object-storage-cos-static-web-hosting-irz.s3.jp-tok.cloud-object-storage.appdomain.cloud/IMG_20240702_141426.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-theme-neutral-dark);
+      background-color: var(--dl-color-theme-neutral-light);
+
+      fill: var(--dl-color-theme-neutral-dark);
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+  <style>
+    @keyframes fade-in-left {
+      0% {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "1ba84fcf-4684-476c-8c3a-54cc1bfb382e", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "5e635741-2808-4bad-aada-544ae0fa3277", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+
+  </script>
+  <link rel="stylesheet" href="./style.css" />
+  <div>
+    <link href="./index.css" rel="stylesheet" />
+
+    <div class="home-container">
+      <header class="navbar-container">
+        <header data-thq="thq-navbar" class="navbar-navbar-interactive">
+          <img alt="Climate Change Organization"
+            src="https://cloud-object-storage-cos-static-web-hosting-irz.s3.jp-tok.cloud-object-storage.appdomain.cloud/IMG_20240702_141426.jpg"
+            class="navbar-image1" height="100%" width="20%" />
+          <div data-thq="thq-navbar-nav" class="navbar-desktop-menu">
+            <nav class="navbar-links">
+              <span class="thq-link thq-body-small"><span>Home</span></span>
+              <span class="thq-link thq-body-small"><span>About</span></span>
+              <span class="thq-link thq-body-small"><span>Causes</span></span>
+              <span class="thq-link thq-body-small">
+                <span>Solutions</span>
+              </span>
+              <span class="thq-link thq-body-small" id="contact-link">
+                <span>Contact</span>
+              </span>
+            </nav>
+
+
+            <div data-thq="thq-burger-menu" class="navbar-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navbar-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
+                </path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="navbar-mobile-menu">
+              <div class="navbar-nav">
+                <div class="navbar-top">
+                  <img alt="Climate Change Organization"
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+                    class="navbar-logo" />
+                  <div data-thq="thq-close-menu" class="navbar-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="navbar-icon2">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z">
+                      </path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="navbar-links1">
+                  <span class="thq-link thq-body-small"><span>Home</span></span>
+                  <span class="thq-link thq-body-small">
+                    <span>About</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Causes</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Solutions</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Contact</span>
+                  </span>
+                </nav>
+              </div>
+
+            </div>
+        </header>
+      </header>
+      <div class="hero-header90">
+        <div class="hero-column thq-section-padding thq-section-max-width">
+          <div class="hero-content">
+
+            <p class="hero-text1 thq-body-large">
+              <span>
+                Climate change refers to significant and lasting changes in the statistical distribution of weather
+                patterns over periods ranging from decades to millions of years. It can involve a change in average
+                weather conditions or in the distribution of weather events, such as more frequent and severe heatwaves,
+                droughts, heavy rainfall, or changes in wind patterns.
+              </span>
+            </p>
+          </div>
+          <div class="hero-content1">
+            <div class="hero-row-container thq-animated-group-container-horizontal thq-mask-image-horizontal">
+              <div class="thq-animated-group-horizontal">
+                <img alt="Hero Image for Climate Change Landing Page"
+                  src="https://images.unsplash.com/photo-1611270418597-a6c77f4b7271?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1581922813492-8199c9bcc5cd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image01 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1582050041583-e6ce27a69acd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image02 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1584921467611-9ca705c13ac6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image03 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1578589317915-00ac3b1e5e2d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image04 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1610004723499-11b7bc872ffe?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image05 thq-img-scale thq-img-ratio-1-1" />
+              </div>
+              <div class="thq-animated-group-horizontal">
+                <img alt="Hero Image for Climate Change Landing Page"
+                  src="https://images.unsplash.com/photo-1611270418597-a6c77f4b7271?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image06 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1581922813492-8199c9bcc5cd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image07 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1582050041583-e6ce27a69acd?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image08 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1584921467611-9ca705c13ac6?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image09 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1578589317915-00ac3b1e5e2d?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image10 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIxfHxhYnN0cmFjdHxlbnwwfHx8fDE3MTA4NzA5MzB8MA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                  class="hero-placeholder-image11 thq-img-scale thq-img-ratio-1-1" />
+              </div>
+            </div>
+            <div class="hero-row-container1 thq-animated-group-container-horizontal thq-mask-image-horizontal">
+              <div class="thq-animated-group-horizontal-reverse">
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1635753789168-d11bae1214db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image12 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1571097378569-f80dbf68dfde?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image13 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1624929303592-230462f729be?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image14 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1581626221838-9715c0e06049?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image15 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1607622157261-3d5ccb02b148?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image16 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1578589303256-5675a36857c8?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image17 thq-img-scale thq-img-ratio-1-1" />
+              </div>
+              <div class="thq-animated-group-horizontal-reverse">
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1635753789168-d11bae1214db?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4OXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image18 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1571097378569-f80dbf68dfde?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image19 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1624929303592-230462f729be?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image20 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1581626221838-9715c0e06049?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg5MXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image21 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1607622157261-3d5ccb02b148?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                  class="hero-placeholder-image22 thq-img-scale thq-img-ratio-1-1" />
+                <img alt="Hero Image"
+                  src="https://images.unsplash.com/photo-1568214379698-8aeb8c6c6ac8?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyfHxncmFmaWN8ZW58MHx8fHwxNzE1Nzk0OTk5fDA&amp;ixlib=rb-4.0.3&amp;w=1500"
+                  class="hero-placeholder-image23 thq-img-scale thq-img-ratio-1-1" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="hero-container1">
+              <style>
+                @keyframes scroll-x {
+                  from {
+                    transform: translateX(0);
+                  }
+
+                  to {
+                    transform: translateX(calc(-100% - 16px));
+                  }
+                }
+
+                @keyframes scroll-y {
+                  from {
+                    transform: translateY(0);
+                  }
+
+                  to {
+                    transform: translateY(calc(-100% - 16px));
+                  }
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+        <h2 align="middle" class="thq-heading-2">About us</h2>
+      </div><br>
+      <h2 align="middle" class="thq-heading-5">
+        Overview:<br></h2>
+      <p align="middle" class="thq-body-large">
+        The Global Climate Change Awareness Initiative is dedicated to educating and engaging communities worldwide
+        about the profound impacts of climate change and the importance of sustainable practices. This initiative aims
+        to bridge the gap in awareness and inspire meaningful action towards environmental stewardship and climate
+        resilience.
+      </p><br>
+      <h2 align="middle" class="thq-heading-5">Purpose:</h2>
+      <p align="Middle" class="thq-body-large">
+        Despite the growing evidence of climate change and its detrimental effects, many individuals and communities
+        remain uninformed or unengaged in climate action. This initiative seeks to address this challenge by providing a
+        comprehensive platform to inform, engage, and mobilize people towards meaningful climate action.</h2>
+      </p>
+      <div class="thq-section-padding">
+        <div class="features1-container1 thq-section-max-width">
+          <div class="features1-image-container">
+            <img alt="image"
+              src="https://images.unsplash.com/photo-1542067423794-1c9600c1efc2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+              class="features2-image2 thq-img-ratio-16-9" />
+          </div>
+          <div class="features1-tabs-menu">
+            <div class="features1-tab-horizontal">
+              <div class="features1-divider-container">
+                <div class="features1-container2"></div>
+              </div>
+              <div class="features1-content">
+                <h2 class="thq-heading-2"><span>Renewable Energy</span></h2>
+                <span class="thq-body-small">
+                  <span>
+                    Explore the benefits of transitioning to renewable energy
+                    sources
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="features1-tab-horizontal1">
+              <div class="features1-divider-container1">
+                <div class="features1-container3"></div>
+              </div>
+              <div class="features1-content1">
+                <h2 class="thq-heading-2"><span>Individual Actions</span></h2>
+                <span class="thq-body-small">
+                  <span>
+                    Discover how individuals can reduce their carbon footprint
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="features1-tab-horizontal2">
+              <div class="features1-divider-container2">
+                <div class="features1-container4"></div>
+              </div>
+              <div class="features1-content2">
+                <h2 class="thq-heading-2">
+                  <span>Biodiversity Impact</span>
+                </h2>
+                <span class="thq-body-small">
+                  <span>
+                    Learn about the impact of climate change on biodiversity
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thq-section-padding">
+        <div class="thq-section-max-width">
+          <div class="cta-accent2-bg">
+            <div class="cta-accent1-bg">
+              <div class="cta-container1">
+                <div class="cta-content">
+                  <span class="thq-heading-2">
+                    <span>Causes of Climate Change</span>
+                  </span>
+                  <p class="thq-body-large">
+                    <span>
+                      Greenhouse gases (GHGs) trap heat in the Earth's atmosphere, leading to a warming effect known as
+                      the greenhouse effect.<br><br> Key greenhouse gases include:<br><br>
+
+                      Carbon Dioxide (CO2): Produced by burning fossil fuels (coal, oil, and natural gas) for energy and
+                      transportation, as well as deforestation and certain industrial processes.<br><br>
+                      Methane (CH4): Emitted during the production and transport of coal, oil, and natural gas. Methane
+                      is also released by livestock and other agricultural practices, as well as by the decay of organic
+                      waste in landfills.<br><br>
+                      Nitrous Oxide (N2O): Released from agricultural and industrial activities, as well as during the
+                      combustion of fossil fuels and solid waste.<br><br>
+                      Fluorinated Gases: Synthetic gases used in a variety of industrial applications, including
+                      refrigeration and air conditioning, that can be thousands of times more potent than CO2.<br><br>
+                    </span>
+                  </p>
+                </div>
+                <div class="cta-content">
+
+                  <p class="thq-body-large">
+                    <span>
+                      Human Activities<br>
+                      Deforestation: The clearing of forests for agriculture, logging, or urban development reduces the
+                      number of trees that can absorb CO2 from the atmosphere. This not only increases CO2 levels but
+                      also disrupts ecosystems.<br><br>
+                      Fossil Fuels: The burning of fossil fuels for energy and transportation is the largest source of
+                      greenhouse gas emissions. This includes activities like driving cars, generating electricity, and
+                      heating buildings.<br><br>
+                      Industrial Activities: Manufacturing processes in industries such as cement, steel, and chemicals
+                      release significant amounts of CO2 and other greenhouse gases. Some industrial activities also
+                      produce methane and nitrous oxide.<br><br>
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thq-section-padding">
+        <div class="features2-container1 thq-section-max-width">
+          <div class="features2-tabs-menu">
+            <div class="features2-tab-horizontal">
+              <div class="features2-divider-container">
+                <div class="features2-container2"></div>
+              </div>
+
+            </div>
+            <div class="features2-tab-horizontal1">
+              <div class="features2-divider-container1">
+                <div class="features2-container3"></div>
+              </div>
+              <div class="features2-content1">
+                <h2 class="thq-heading-2">
+                  <span>Impact on Biodiversity</span>
+                </h2>
+                <span class="thq-body-small">
+                  <span>
+                    Impact on Biodiversity Due to Climate Change
+
+                    Climate change poses significant threats to biodiversity, impacting ecosystems and species in
+                    various ways:<br><br>
+
+                    1. Habitat Loss and Fragmentation<br>
+                    2. Shifts in Species Distribution<br>
+                    3. Disruption of Ecological Interactions<br>
+                    4. Increased Extinction Risk<br>
+                    5. Loss of Ecosystem Services<br>
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="features2-tab-horizontal2">
+              <div class="features2-divider-container2">
+                <div class="features2-container4"></div>
+              </div>
+
+            </div>
+          </div>
+          <div class="features2-image-container">
+            <img alt="feature 1"
+              src="https://images.unsplash.com/photo-1573490647695-2892d0bf89e7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+              class="features2-image thq-img-ratio-16-9" />
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="steps-container thq-section-padding">
+        <div class="steps-max-width thq-section-max-width">
+          <div class="steps-container1 thq-grid-2">
+            <div class="steps-section-header">
+              <h2 class="thq-heading-2">
+                Ecology in a Changing Climate
+              </h2>
+              <p class="thq-body-large">
+                According to The Ecological Society of America, Ecology is defined as:
+
+                The study of the relationships between living organisms, including humans, and their physical
+                environment; it seeks to understand the vital connections between plants and animals and the world
+                around them. Ecology also provides information about the benefits of ecosystems and how we can use
+                Earth’s resources in ways that leave the environment healthy for future generations.
+              </p>
+              <p class=" thq-heading-2">
+                Climate Action Challenges
+              </p>
+              <p class="thq-body-large">
+                Individual Challenges:<br>
+                Take part in our individual challenges, such as:
+
+                Reduce Plastic Use: Simple steps to minimize plastic consumption.
+                Bike to Work: Promote eco-friendly transportation methods.
+                Plant a Tree: Join our tree-planting initiatives to offset carbon emissions.
+                <br>
+                <br>
+                Community Challenges:<br>
+                Engage in community-based challenges like:
+
+                Community Clean-ups: Organize local clean-up drives to maintain clean and healthy surroundings.
+                Recycling Drives: Initiate and participate in recycling programs.
+                Local Conservation Projects: Collaborate on projects that protect local ecosystems.
+              </p>
+            </div>
+            <div class="steps-container2">
+              <div class="steps-container3 thq-card">
+                <h2 class="thq-heading-2">
+                  <span>Understand the Science</span>
+                </h2>
+                <span class="steps-text04 thq-body-small">
+                  <span>
+                    Learn about the causes and effects of climate change,
+                    including the role of greenhouse gases and global warming.
+                  </span>
+                </span>
+                <label class="steps-text05 thq-heading-3">01</label>
+              </div>
+              <div class="steps-container4 thq-card">
+                <h2 class="thq-heading-2">
+                  <span>Reduce Your Carbon Footprint</span>
+                </h2>
+                <span class="steps-text07 thq-body-small">
+                  <span>
+                    Take actions to decrease your carbon emissions by using
+                    energy-efficient appliances, reducing waste, and choosing
+                    sustainable transportation options.
+                  </span>
+                </span>
+                <label class="steps-text08 thq-heading-3">02</label>
+              </div>
+              <div class="steps-container5 thq-card">
+                <h2 class="thq-heading-2">
+                  <span>Support Renewable Energy</span>
+                </h2>
+                <span class="steps-text10 thq-body-small">
+                  <span>
+                    Invest in renewable energy sources such as solar, wind,
+                    and hydroelectric power to reduce reliance on fossil
+                    fuels.
+                  </span>
+                </span>
+                <label class="steps-text11 thq-heading-3">03</label>
+              </div>
+              <div class="steps-container6 thq-card">
+                <h2 class="thq-heading-2">
+                  <span>Advocate for Change</span>
+                </h2>
+                <span class="steps-text13 thq-body-small">
+                  <span>
+                    Join advocacy groups, participate in climate strikes, and
+                    urge policymakers to take meaningful action to address
+                    climate change.
+                  </span>
+                </span>
+                <label class="steps-text14 thq-heading-3">04</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thq-section-padding">
+        <div class="testimonial-max-width thq-section-max-width">
+          <div class="testimonial-container">
+            <h2 class="thq-heading-2"><span>Testimonials</span></h2>
+
+          </div>
+          <div class="thq-grid-2">
+            <div class="thq-animated-card-bg-2">
+              <div class="thq-animated-card-bg-1">
+                <div data-animated="true" class="thq-card testimonial-card">
+                  <div class="testimonial-container02">
+                    <img alt="Image of John Doe"
+                      src="https://images.unsplash.com/photo-1613951085587-cfe5d0a6cffc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                      class="testimonial-image" />
+                    <div class="testimonial-container03">
+                      <strong class="thq-body-large">
+                        <span>John Doe</span>
+                      </strong>
+                      <span class="thq-body-small">
+                        <span>Environmental Scientist</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="testimonial-text04 thq-body-small">
+                    <span>
+                      Climate change is a pressing issue that requires
+                      immediate action. This platform provides valuable
+                      information and resources to tackle this global
+                      challenge.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="thq-animated-card-bg-2">
+              <div class="thq-animated-card-bg-1">
+                <div data-animated="true" class="thq-card testimonial-card1">
+                  <div class="testimonial-container04">
+                    <img alt="Image of Jane Smith"
+                      src="https://images.unsplash.com/photo-1641312874336-6279a832a3dc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                      class="testimonial-image1" />
+                    <div class="testimonial-container05">
+                      <strong class="thq-body-large">
+                        <span>Jane Smith</span>
+                      </strong>
+                      <span class="thq-body-small">
+                        <span>Climate Activist</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="testimonial-text07 thq-body-small">
+                    <span>
+                      I have been following the updates and articles on this
+                      website, and I must say it has been an eye-opening
+                      experience. We all need to come together to combat
+                      climate change.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="thq-animated-card-bg-2">
+              <div class="thq-animated-card-bg-1">
+                <div data-animated="true" class="thq-card testimonial-card2">
+                  <div class="testimonial-container06">
+                    <img alt="Image of David Johnson"
+                      src="https://images.unsplash.com/photo-1594751439417-df8aab2a0c11?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxOTkwNTg4N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
+                      class="testimonial-image2" />
+                    <div class="testimonial-container07">
+                      <strong class="thq-body-large">
+                        <span>David Johnson</span>
+                      </strong>
+                      <span class="thq-body-small">
+                        <span>Renewable Energy Expert</span>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="testimonial-text10 thq-body-small">
+                    <span>
+                      The content provided here is not only informative but
+                      also inspiring. It motivates individuals to make
+                      sustainable choices and work towards a greener future.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="contact-contact20 thq-section-padding">
+        <div class="contact-max-width thq-section-max-width">
+          <div class="contact-section-title">
+            <span class="thq-body-small">
+              <span>Get in touch with us today!</span>
+            </span>
+            <div class="contact-content">
+              <h2 class="thq-heading-2"><span>Contact Us</span></h2>
+              <p class="contact-text2 thq-body-large">
+
+              </p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-content1">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                <path
+                  d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z">
+                </path>
+              </svg>
+              <div class="contact-contact-info">
+                <div class="contact-content2">
+                  <h3 class="contact-text3 thq-heading-3">Email</h3>
+                  <p class="contact-text4 thq-body-large">
+
+                  </p>
+                </div>
+                <span class="contact-email thq-body-small">
+                  <span>mrazaaa72@gmail.com</span>
+                </span>
+              </div>
+            </div>
+            <div class="contact-content3">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                <path
+                  d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z">
+                </path>
+              </svg>
+              <div class="contact-contact-info1">
+                <div class="contact-content4">
+                  <h3 class="contact-text5 thq-heading-3">Phone</h3>
+                  <p class="contact-text6 thq-body-large">
+
+                  </p>
+                </div>
+                <span class="contact-phone thq-body-small">
+                  <span>+91 9601355196</span>
+                </span>
+              </div>
+            </div>
+            <div class="contact-content5">
+              <svg viewBox="0 0 1024 1024" class="thq-icon-medium">
+                <path
+                  d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z">
+                </path>
+              </svg>
+              <div class="contact-contact-info2">
+                <div class="contact-content6">
+                  <h3 class="contact-text7 thq-heading-3">Office</h3>
+                  <p class="contact-text8 thq-body-large">
+
+                  </p>
+                </div>
+                <span class="contact-address thq-body-small">
+                  <span>St.Xavier's College Ahmedabad.</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer-footer1 thq-section-padding">
+        <div class="footer-max-width thq-section-max-width">
+          <div class="footer-content">
+            <div class="footer-newsletter">
+
+              <span class="thq-body-small">
+                Subscribe to our newsletter for the latest updates on new
+                features and product releases.
+              </span>
+              <div class="footer-actions">
+                <div class="footer-form">
+                  <div class="footer-container">
+                    <input type="email" placeholder="Enter your email" class="footer-text-input thq-input" />
+                  </div>
+                  <button class="thq-button-outline footer-button">
+                    <span class="thq-body-small"><span>Subscribe</span></span>
+                  </button>
+                </div>
+                <span class="footer-content2 thq-body-small">
+                  <span>
+                    By subscribing you agree to with our Privacy Policy and
+                    provide consent to receive updates from our company.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="footer-links">
+
+
+            </div>
+          </div>
+          <div class="footer-credits">
+            <div class="thq-divider-horizontal"></div>
+            <div class="footer-row">
+              <span class="thq-body-small">
+                <span>© 2024 Eco Aware HQ</span>
+              </span>
+              <div class="footer-footer-links2">
+                <span class="thq-body-small">
+                  <span>Privacy Policy</span>
+                </span>
+                <span class="thq-body-small">
+                  <span>Terms of Service</span>
+                </span>
+                <span class="thq-body-small">
+                  <span>Cookies Settings</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script data-section-id="navbar" src="https://unpkg.com/@teleporthq/teleport-custom-scripts">
+  </script>
+  <script>
+    let contactLink = document.getElementById('contact-link');
+    let contactSection = document.getElementsByClassName('contact-section-title')[0];
+
+    // Add click event listener to the contact link
+    contactLink.addEventListener('click', function (e) {
+      // Prevent default link behavior
+      e.preventDefault();
+
+      // Scroll to the contact section
+      contactSection.scrollIntoView({
+        behavior: 'smooth', // Smooth scrolling
+        block: 'start' // Align to the start of the section
+      });
+    });
+  </script>
+</body>
+
+</html>
